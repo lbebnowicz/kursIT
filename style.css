@@ -11,7 +11,7 @@ body {
     background-color: #dee3e1;
 }
 
-#nav {
+.nav {
     background-color: gray;
     color: white;
     padding: 10px;
@@ -71,4 +71,31 @@ table tr td:first-child::before {
     content: counter(rowNumber);
     min-width: 1em;
     margin-right: 0.5em;
+}
+
+#photo-container {
+    width: 50%;
+    float: left;
+    background-color: #dee3e1;
+    min-height: 600px;
+    padding-top: 30px;
+}
+
+#photo {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#welcome-text {
+    background-color: #dee3e1;
+    color: #db7093;
+    width: 50%;
+    padding-top: 30px;
+    min-height: 600px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    font-style: italic;
+    font-size: 44px;
+    letter-spacing: 2px;
+    font-family: 'Amatic SC', cursive;
 }
